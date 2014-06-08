@@ -20,6 +20,9 @@ echo "...done"
 echo "Moving any existing dotfiles to dotfiles_old"
 cd $dir
 
+echo "Moving vimrc_orig to vimrc"
+cp vim_orig vimrc
+
 for file in $files; do
   echo "Moving $file"
   mv ~/.$file ~/dotfiles_old/
