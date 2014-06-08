@@ -10,18 +10,16 @@ oldir=~/dotfiles_old
 files="vimrc"
 
 vimdir=~/.vim
-oldir=~/vim_old
+vimoldir=~/vim_old
 
 ### Create old_dir for backing up dotfiles
-echo "Creating $oldir for backup of existing dotfiles"
+echo "Creating $oldir and $vimolddir for backup of existing files"
 mkdir -p $oldir
+mkdir -p $vimoldir
 echo "...done"
 
-echo "Moving any existing dotfiles to dotfiles_old"
-cd $dir
-
 echo "Moving vimrc_orig to vimrc"
-cp vim_orig vimrc
+cp ./vimrc_orig ./vimrc
 
 for file in $files; do
   echo "Moving $file"
@@ -43,5 +41,3 @@ rm -rf $vimdir/colors/tmp
 ### Run vundle install
 git clone https://github.com/gmarik/Vundle.vim.git $vimdir/bundle/Vundle.vim
 vim -c PluginInstall
-
-
