@@ -18,6 +18,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'Raimondi/delimitMate'
 
 call vundle#end()
 filetype plugin indent on
@@ -47,6 +48,7 @@ autocmd VimEnter * NERDTree
 
 " YouCompleteMe
 let g:ycm_python_binary_path=substitute(system("which python"), "\n$", "", "")
+let g:ycm_server_python_interpreter='/usr/bin/python'
 let $PYTHONPATH=getcwd() . ":" . $PYTHONPATH
 let g:ycm_autoclose_preview_window_after_completion=1
 
@@ -83,18 +85,18 @@ set foldlevel=99
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Python PEP8
 au BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=79
-    \ set expandtab
-    \ set autoindent
-    \ set fileformat=unix
+    \ set tabstop=4 
+    \ softtabstop=4 
+    \ shiftwidth=4 
+    \ textwidth=79 
+    \ expandtab 
+    \ autoindent 
+    \ fileformat=unix
 
 " Html, Css, Js
 au BufNewFile,BufRead *.js, *.html, *.css
     \ set tabstop=2
-    \ set softtabstop=2
-    \ set shiftwidth=2
+    \ softtabstop=2
+    \ shiftwidth=2
 
 set encoding=utf-8
