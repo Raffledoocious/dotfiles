@@ -43,9 +43,6 @@ map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Plugin settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Nerdtree
-autocmd VimEnter * NERDTree
-
 " YouCompleteMe
 let g:ycm_python_binary_path=substitute(system("which python"), "\n$", "", "")
 let g:ycm_server_python_interpreter='/usr/bin/python'
@@ -83,6 +80,11 @@ set foldlevel=99
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Formatting
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+
 " Python PEP8
 au BufNewFile,BufRead *.py
     \ set tabstop=4 
