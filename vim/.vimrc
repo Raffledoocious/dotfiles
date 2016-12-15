@@ -10,14 +10,8 @@ call vundle#begin()
 " Theme
 Plugin 'w0ng/vim-hybrid'
 
-" Development
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'scrooloose/syntastic'
-
 " General
 Plugin 'scrooloose/nerdtree'
-Plugin 'kien/ctrlp.vim'
-Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'Raimondi/delimitMate'
 
 call vundle#end()
@@ -37,28 +31,9 @@ nmap <silent> <C-j> :wincmd j<CR>
 nmap <silent> <C-h> :wincmd h<CR>
 nmap <silent> <C-l> :wincmd l<CR>
 
-" YouCompleteMe go to definition
-map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Plugin settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" YouCompleteMe
-let g:ycm_python_binary_path=substitute(system("which python"), "\n$", "", "")
-let g:ycm_server_python_interpreter='/usr/bin/python'
-let $PYTHONPATH=getcwd() . ":" . $PYTHONPATH
-let g:ycm_autoclose_preview_window_after_completion=1
-
-" Syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 1
-let g:syntastic_python_python_exec = substitute(system("which python"), "\n$", "", "")
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Color and Theme
