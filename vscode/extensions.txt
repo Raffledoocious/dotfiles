@@ -1,0 +1,4 @@
+James-Yu.latex-workshop
+PeterJausovec.vscode-docker
+donjayamanne.python
+vscodevim.vim

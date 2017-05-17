@@ -1,5 +1,4 @@
 // Place your settings in this file to overwrite the default settings
 {
-    // Editor
-    "editor.fontSize": 12
+    "editor.fontSize":12
 }
