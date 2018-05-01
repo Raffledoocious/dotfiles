@@ -1,5 +1,4 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 12,
-    "vim.disableAnnoyingNeovimMessage": true
+    "editor.fontSize": 12
 }
