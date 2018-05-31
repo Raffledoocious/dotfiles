@@ -1,2 +1,2 @@
-PeterJausovec.vscode-docker
-donjayamanne.python
+ms-python.python
+ms-vscode.PowerShell
