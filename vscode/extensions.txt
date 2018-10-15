@@ -1,4 +1,3 @@
 ms-python.python
 ms-vscode.PowerShell
 PeterJausovec.vscode-docker
-vscodevim.vim
