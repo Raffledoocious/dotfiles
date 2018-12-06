@@ -13,5 +13,8 @@
     },
     "[css]": {
         "editor.tabSize": 2
-    }
+    },
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "vim.handleKeys": { "<C-f>": false }
 }
