@@ -1,3 +1,6 @@
 ms-python.python
+ms-vscode.csharp
 ms-vscode.PowerShell
+ms-vscode.vscode-typescript-tslint-plugin
 PeterJausovec.vscode-docker
+vscodevim.vim
