@@ -19,5 +19,8 @@
 
     "window.zoomLevel": 0,
 
-    "vim.handleKeys": { "<C-f>": false }
+    "vim.handleKeys": { 
+        "<C-f>": false,
+        "<C-k>": false
+     }
 }
