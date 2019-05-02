@@ -6,6 +6,7 @@
     "editor.fontSize": 12,
     "editor.mouseWheelScrollSensitivity": 3,
     "editor.minimap.enabled": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
 
     "[typescript]": {
         "editor.tabSize": 2
@@ -15,6 +16,10 @@
     },
     "[css]": {
         "editor.tabSize": 2
+    },
+
+    "editor.codeActionsOnSave": {
+        "source.fixAll.tslint": true
     },
 
     "window.zoomLevel": 0,
