@@ -13,7 +13,8 @@
         {
             // Put settings here that you want to apply to all profiles
             "colorScheme" : "VS Code",
-            "fontSize": 11
+            "fontSize": 10,
+            "font": "Consolas"
         },
         "list":
         [
@@ -50,7 +51,7 @@
     "schemes": [
 	{
 	    "name" : "VS Code",
-            "background" : "#1E1E1E",
+            "background" : "#000000",
             "black" : "#21222C",
             "blue" : "#BD93F9",
             "brightBlack" : "#6272A4",
