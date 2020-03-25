@@ -12,7 +12,7 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles
-            "colorScheme" : "Dracula",
+            "colorScheme" : "VS Code",
             "fontSize": 11
         },
         "list":
@@ -48,14 +48,14 @@
 
     // Add custom color schemes to this array
     "schemes": [
-        {
-            "name" : "Dracula",
-            "background" : "#282A36",
+	{
+	    "name" : "VS Code",
+            "background" : "#1E1E1E",
             "black" : "#21222C",
             "blue" : "#BD93F9",
             "brightBlack" : "#6272A4",
             "brightBlue" : "#D6ACFF",
-            "brightCyan" : "#A4FFFF",
+            "brightCyan" : "#9CDCFE",
             "brightGreen" : "#69FF94",
             "brightPurple" : "#FF92DF",
             "brightRed" : "#FF6E6E",
@@ -68,7 +68,7 @@
             "red" : "#FF5555",
             "white" : "#F8F8F2",
             "yellow" : "#F1FA8C"
-        }
+	}
     ],
 
     // Add any keybinding overrides to this array.
