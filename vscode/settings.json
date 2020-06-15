@@ -17,6 +17,9 @@
     "[css]": {
         "editor.tabSize": 2
     },
+    "[scss]": {
+        "editor.tabSize": 2
+    },
 
     "editor.codeActionsOnSave": {
         "source.fixAll.tslint": true
@@ -27,5 +30,19 @@
     "vim.handleKeys": { 
         "<C-f>": false,
         "<C-k>": false
-     }
+    },
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "enabled": true,
+        "args": []
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always"
 }
