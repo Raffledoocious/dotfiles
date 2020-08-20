@@ -13,7 +13,7 @@
         {
             // Put settings here that you want to apply to all profiles
             "colorScheme" : "VS Code",
-            "fontSize": 10,
+            "fontSize": 9,
             "font": "Consolas"
         },
         "list":
