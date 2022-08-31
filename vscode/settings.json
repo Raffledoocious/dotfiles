@@ -3,7 +3,7 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
-    "editor.fontSize": 12,
+    "editor.fontSize": 14,
     "editor.mouseWheelScrollSensitivity": 3,
     "editor.minimap.enabled": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -31,5 +31,8 @@
         "<C-f>": false,
         "<C-k>": false
     },
+
     "typescript.updateImportsOnFileMove.enabled": "always",
+
+    "telemetry.telemetryLevel": "off"
 }
