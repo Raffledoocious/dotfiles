@@ -1,5 +1,5 @@
 Import-Module posh-git
-Set-Location C:\Users\JLUTTEKE\Source
+Set-Location ~/Source
 # Import the Chocolatey Profile that contains the necessary code to enable
 # tab-completions to function for `choco`.
 # Be aware that if you are missing these lines from your profile, tab completion

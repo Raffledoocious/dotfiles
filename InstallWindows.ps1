@@ -20,6 +20,12 @@ function Install-VsCodeExtensions {
     }
 }
 
-Set-WindowsTerminalSettings
-Set-VSCodeSettings
-Install-VsCodeExtensions
+function Set-PowerShellSettings {
+    Remove-Item $profile
+    New-Item -ItemType SymbolicLink -Path $profile -Target ".\powershell\Microsoft.PowerShell_profile.ps1"
+}
+
+# Set-WindowsTerminalSettings
+# Set-VSCodeSettings
+# Install-VsCodeExtensions
+Set-PowerShellSettings
