@@ -20,12 +20,13 @@
     "[scss]": {
         "editor.tabSize": 2
     },
+    "[terraform]": {
+        "editor.tabSize": 2
+    },
 
     "editor.codeActionsOnSave": {
         "source.fixAll.tslint": true
     },
-
-    "window.zoomLevel": 0,
 
     "vim.handleKeys": { 
         "<C-f>": false,
