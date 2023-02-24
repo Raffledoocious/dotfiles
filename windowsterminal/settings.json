@@ -31,16 +31,10 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{1d164e86-83ce-5cd2-bb4b-e129d0611eb2}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{6b52441f-1da5-5fc0-8fe0-b630ad6123e6}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
             }
         ]
     },
