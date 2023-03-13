@@ -61,5 +61,8 @@
     "oracledevtools.bookmarkFileFolder": "C:\\Users\\JLUTTEKE\\Oracle\\oracle.oracledevtools",
     "oracledevtools.download.otherFolder": "C:\\Users\\JLUTTEKE\\downloads",
     "oracledevtools.connectionConfiguration.configFilesFolder": "C:\\Users\\JLUTTEKE\\Oracle\\network\\admin",
-    "oracledevtools.connectionConfiguration.walletFileFolder": "C:\\Users\\JLUTTEKE\\Oracle\\network\\admin"
+    "oracledevtools.connectionConfiguration.walletFileFolder": "C:\\Users\\JLUTTEKE\\Oracle\\network\\admin",
+    "files.associations": {
+        "*.tmpl": "terraform"
+    }
 }
