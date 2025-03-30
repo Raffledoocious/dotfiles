@@ -28,7 +28,7 @@
     },
 
     "editor.codeActionsOnSave": {
-        "source.fixAll.tslint": true
+        "source.fixAll.tslint": "explicit"
     },
 
     "vim.handleKeys": { 
