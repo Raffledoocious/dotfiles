@@ -1,68 +1,96 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "editor.detectIndentation": false,
-    "editor.fontSize": 13,
-    "editor.mouseWheelScrollSensitivity": 3,
-    "editor.minimap.enabled": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-
-    "[typescript]": {
-        "editor.tabSize": 2
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "cSpell.userWords": [
+    "Agentic",
+    "denormalize",
+    "MAAP",
+    "MSRP",
+    "YMMS"
+  ],
+  "chat.mcp.access": "all",
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": "explicit"
+  },
+  "editor.fontSize": 12,
+  "editor.insertSpaces": true,
+  "editor.minimap.enabled": false,
+  "editor.mouseWheelScrollSensitivity": 3,
+  "editor.tabSize": 2,
+  "files.associations": {
+    "*.tmpl": "terraform"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "oracledevtools.bookmarkFileFolder": "C:\\Users\\JLUTTEKE\\Oracle\\oracle.oracledevtools",
+  "oracledevtools.connectionConfiguration.configFilesFolder": "C:\\Users\\JLUTTEKE\\Oracle\\network\\admin",
+  "oracledevtools.connectionConfiguration.walletFileFolder": "C:\\Users\\JLUTTEKE\\Oracle\\network\\admin",
+  "oracledevtools.download.otherFolder": "C:\\Users\\JLUTTEKE\\downloads",
+  "snowflake.connectionsConfigFile": "C:\\Users\\JLUTTEKE\\.snowflake\\connections.toml",
+  "sqldeveloper.sqlHistory.historyLimit": 500,
+  "sqldeveloper.telemetry.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vim.handleKeys": {
+    "<C-f>": false,
+    "<C-k>": false,
+    "<C-n>": false,
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<C-k>",
+        "<C-o>"
+      ],
+      "commands": [
+        "workbench.action.files.openFolder"
+      ]
     },
-    "[html]": {
-        "editor.tabSize": 2
-    },
-    "[css]": {
-        "editor.tabSize": 2
-    },
-    "[scss]": {
-        "editor.tabSize": 2
-    },
-    "[terraform]": {
-        "editor.tabSize": 2
-    },
-    "[markdown]": {
-        "editor.tabSize": 2
-    },
-
-    "editor.codeActionsOnSave": {
-        "source.fixAll.tslint": "explicit"
-    },
-
-    "vim.handleKeys": { 
-        "<C-f>": false,
-        "<C-k>": false,
-    },
-    "vim.normalModeKeyBindings": [
-        {
-            "before": [
-                "<C-k>",
-                "<C-o>"
-            ],
-            "commands": [
-                "workbench.action.files.openFolder"
-            ]
-        },
-        {
-            "before": [
-                "<C-o>"
-            ],
-            "commands": [
-                "workbench.action.files.openFile"
-            ]
-        }
-    ],
-
-    "typescript.updateImportsOnFileMove.enabled": "always",
-
-    "telemetry.telemetryLevel": "off",
-    "oracledevtools.bookmarkFileFolder": "C:\\Users\\JLUTTEKE\\Oracle\\oracle.oracledevtools",
-    "oracledevtools.download.otherFolder": "C:\\Users\\JLUTTEKE\\downloads",
-    "oracledevtools.connectionConfiguration.configFilesFolder": "C:\\Users\\JLUTTEKE\\Oracle\\network\\admin",
-    "oracledevtools.connectionConfiguration.walletFileFolder": "C:\\Users\\JLUTTEKE\\Oracle\\network\\admin",
-    "files.associations": {
-        "*.tmpl": "terraform"
+    {
+      "before": [
+        "<C-o>"
+      ],
+      "commands": [
+        "workbench.action.files.openFile"
+      ]
     }
+  ],
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "chat.tools.terminal.autoApprove": {
+    "yarn test:unit": true,
+    "yarn install": true,
+    "yarn dev": true,
+    "yarn start": true,
+    "npx": true,
+    "Start-Process": true,
+    "yarn test": true,
+    "yarn vitest": true,
+    "dotnet test": true,
+    "dotnet new": true,
+    "dotnet add": true,
+    "dotnet build": true,
+    "yarn tsc": true,
+    "Set-Location": true,
+    "ForEach-Object": true,
+    "Set-Content": true,
+    "yarn eslint": true,
+    "tsc": true
+  },
+  "chat.agent.maxRequests": 50,
+  "github.copilot.chat.summarizeAgentConversationHistory.enabled": false,
+  "powershell.promptToUpdatePowerShell": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "chat.viewSessions.orientation": "stacked",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.useAgentSkills": true,
+  "sqldeveloper.datagrid.fontFamily": "Consolas, 'Courier New', monospace",
+  "claudeCode.preferredLocation": "panel",
+  "hediet.vscode-drawio.resizeImages": null,
 }
